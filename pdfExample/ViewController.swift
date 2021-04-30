@@ -25,13 +25,6 @@ class ViewController: UIViewController,UIWebViewDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.title = "PDF"
-        
-//        let someString = "%PDF-1.7%"
-//        let version = Data(someString.utf8)
-//        print(data)
-//
-//        let str = String(decoding: data, as: UTF8.self)
-//        print(str)
 
     }
     
@@ -84,10 +77,7 @@ class ViewController: UIViewController,UIWebViewDelegate {
     }
 
 
-    func sam(){
-        
-        var pdf = createPDF().m
-    }
+
   
 }
 
